@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Counter } from './Counter';
+import { List } from './List';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter/>
+        <List title="react demo"/>
       </header>
     </div>
   );
